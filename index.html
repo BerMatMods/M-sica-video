@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎵 Galería Musical - BerMatMods 🎶</title>
+<style>
+  body {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #0c0c0c;
+    box-shadow: 0 0 10px #00ffe0;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+    color: #00ffee;
+    text-shadow: 0 0 10px #00ffee;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 30px;
+  }
+
+  .video-card {
+    background: #101010;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,255,234,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,255,234,0.4);
+  }
+
+  video {
+    width: 100%;
+    border-bottom: 2px solid #00ffee;
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: #b3ffff;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    background: #0c0c0c;
+    border-top: 1px solid #00ffee;
+  }
+
+  footer span {
+    color: #00ffee;
+  }
+
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🎶 Galería de Videos Musicales - <span>BerMatMods</span> 🎵</h1>
+  <p>Subido por <b>Anth’Zz Berrocal</b> 💻 | Proyecto: <b>Vídeo musical</b></p>
+</header>
+
+<div class="container">
+  <!-- Lista de videos -->
+  <div class="video-card">
+    <video controls src="lv_0_20251107220055.mp4"></video>
+    <div class="title">Video 1 🎬</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220232.mp4"></video>
+    <div class="title">Video 2 🎥</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220311.mp4"></video>
+    <div class="title">Video 3 🎶</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220432.mp4"></video>
+    <div class="title">Video 4 🌌</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220457.mp4"></video>
+    <div class="title">Video 5 🔥</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220546.mp4"></video>
+    <div class="title">Video 6 💫</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220650.mp4"></video>
+    <div class="title">Video 7 💥</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220724.mp4"></video>
+    <div class="title">Video 8 🎧</div>
+  </div>
+
+  <div class="video-card">
+    <video controls src="lv_0_20251107220830.mp4"></video>
+    <div class="title">Video 9 🎵</div>
+  </div>
+</div>
+
+<footer>
+  © 2025 <span>BerMatMods</span> | Creado por Anth’Zz Berrocal 💻  
+  <br>🌐 <a href="https://github.com/BerMatMods" style="color:#00ffee; text-decoration:none;">GitHub Oficial</a>
+</footer>
+
+</body>
+</html>
