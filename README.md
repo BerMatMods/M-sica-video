@@ -58,7 +58,7 @@ Los videos se muestran directamente en una página web activada con **GitHub Pag
 
 | 💠 Nombre | 🧑 Alias | 🌎 Ubicación | 💻 Proyecto |
 |------------|-----------|-------------|-------------|
-| **Anth’Zz Berrocal** | **BerMatModZ** ⚡ | Andahuaylas, Perú 🇵🇪 | **BerMatMods / M-sica-video** |
+| **Anth’Zz Berrocal** | **BerMatModZ** ⚡ | Perú 🇵🇪 | **BerMatMods / M-sica-video** |
 
 ---
 
